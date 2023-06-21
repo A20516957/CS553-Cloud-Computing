@@ -1,0 +1,11 @@
+ubuntu@namenode:/exports/projects/hadoop-3.2.3/gensort-1.5$ time LC_COLLATE=C sort -k 1 -o output24GB.log 24GB.in --parallel=48
+
+real    34m13.287s
+user    32m15.398s
+sys     27m53.238s
+
+ubuntu@namenode:/exports/projects/hadoop-3.2.3/gensort-1.5$ ./valsort output24GB.log
+Records: 240000000
+Checksum: 2c1fe4262a9063b
+Duplicate keys: 0
+SUCCESS - all records are in order
