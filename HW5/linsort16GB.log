@@ -1,0 +1,11 @@
+chavilism@chavilism-VirtualBox:/media/chavilism/HDD/Assignment 5/gensort-1.5$ time LC_COLLATE=C sort -k 1 -o linout16.log mysort16gb.log --parallel=2
+
+real	8m42.667s
+user	8m16.104s
+sys	0m47.224s
+
+chavilism@chavilism-VirtualBox:/media/chavilism/HDD/Assignment 5/gensort-1.5$ ./valsort -t8 linout16.log 
+Records: 160000000
+Checksum: 422d553c4a9c4e
+Duplicate keys: 0
+SUCCESS - all records are in order

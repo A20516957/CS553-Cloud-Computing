@@ -1,0 +1,10 @@
+chavilism@chavilism-VirtualBox:/media/chavilism/HDD/Assignment 5/cs553-fall2022-hw5-bhavya-master$ ./mysort mysort16gb.log output16gb.out 2
+input file: mysort16gb.log
+output file: output16gb.out
+number of threads: 2
+execution time: 1945.784837
+chavilism@chavilism-VirtualBox:/media/chavilism/HDD/Assignment 5/cs553-fall2022-hw5-bhavya-master$ ./valsort output16gb.out
+Records: 160000000
+Checksum: 23e56fce466f6a
+Duplicate keys: 0
+SUCCESS - all records are in order
